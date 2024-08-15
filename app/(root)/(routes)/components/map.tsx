@@ -9,8 +9,8 @@ export default function GoogleMap() {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        apiKey: process.env.NEXT_API_GOOGLE_MAPS as string,
-        version: process.env.VERSION as string,
+        apiKey: process.env.NEXT_API_GOOGLE_MAPS!,
+        version: process.env.VERSION!,
       });
 
       const { Map } = await loader.importLibrary("maps");
