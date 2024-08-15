@@ -17,7 +17,7 @@ export default function Navbar() {
         <li>
           {routes.map((route) => (
             <Link key={route.label} href={route.href}>
-              <span className="text-slate-200 hover:text-gray-500 transition-all duration-300 mr-6 text-xs uppercase tracking-[.3rem]">
+              <span className="text-slate-200 hover:text-gray-500 transition-all duration-300 mr-6 text-xs uppercase tracking-[.4rem]">
                 {route.label}
               </span>
             </Link>

@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         factura: "url('/factura.jpg')",
-        pan: "url('/pan.jpg')",
+        miga: "url('/miga.webp')",
       },
     },
   },
