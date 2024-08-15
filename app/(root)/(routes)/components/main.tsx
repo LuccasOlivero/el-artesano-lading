@@ -1,4 +1,5 @@
 import CardGrid from "./card";
+import GoogleMap from "./map";
 
 export default function Main() {
   return (
@@ -38,6 +39,8 @@ export default function Main() {
           </button>
         </div>
       </div>
+
+      <GoogleMap />
     </>
   );
 }
