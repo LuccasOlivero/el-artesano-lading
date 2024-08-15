@@ -1,5 +1,4 @@
 import CardGrid from "./card";
-import Footer from "./footer";
 
 export default function Main() {
   return (
@@ -15,7 +14,6 @@ export default function Main() {
         </h1>
       </div>
 
-      {/* cards here */}
       <div className="bg-slate-50 w-full h-full py-16">
         <div className="text-center text-pretty text-slate-600 relative z-20 tracking-[.5rem]">
           <h3 className="uppercase text-xl">nuestros productos</h3>
@@ -23,7 +21,23 @@ export default function Main() {
         <CardGrid />
       </div>
 
-      <div className="relative w-full bg-fixed h-screen bg-miga bg-no-repeat bg-center bg-cover"></div>
+      <div className="relative w-full bg-fixed py-40 bg-miga bg-no-repeat bg-center bg-cover flex justify-center">
+        <span className="absolute inset-0 w-full h-full bg-[rgba(34,34,34,0.3)] content-none"></span>
+
+        <div className="container flex flex-col items-start justify-center mx-auto w-3/4 z-10">
+          <h4 className="uppercase text-2xl text-pretty font-bold text-slate-100">
+            sandwiches de miga por mayor
+          </h4>
+          <p className="text-pretty text-sm text-slate-200 mt-2 mb-4">
+            ¡Listas para hornear! Completar tu oferta gastronómica <br />
+            con medialunas artesanales recién horneadas es más fácil de lo que
+            te imaginás!
+          </p>
+          <button className="flex h-full items-center text-sm font-normal text-black bg-yellow-600 shadow-sm px-6 py-1 uppercase">
+            hace tu pedido
+          </button>
+        </div>
+      </div>
     </>
   );
 }
