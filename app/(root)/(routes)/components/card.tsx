@@ -7,15 +7,15 @@ export default function CardGrid() {
   const cards = [
     {
       icon: <Croissant size={40} />,
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      text: "Nuestros artesanos mezclan la cantidad perfecta de ingredientes y hornean el pan usando la temperatura idónea del horno, obteniendo siempre como resultado único.",
     },
     {
       icon: <Wheat size={40} />,
-      text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      text: "Nuestra pastelería artesanal se destaca en la preparación, cocción y decoración de platos y piezas dulces tales como tortas, pasteles, mini tortas y muchos más.",
     },
     {
       icon: <Sandwich size={40} />,
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      text: "Conocé nuestros sandiwches. Trabajamos con la experiencia y la dedicación que nuestros clientes merecen, elaborando alimentos frescos con materia prima de primera calidad.",
     },
   ];
 
