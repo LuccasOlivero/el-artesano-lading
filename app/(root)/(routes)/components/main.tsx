@@ -15,7 +15,7 @@ export default function Main() {
         </h1>
       </div>
 
-      <div className="bg-slate-50 w-full h-full py-16">
+      <div className="bg-slate-100 w-full h-full py-16">
         <div className="text-center text-pretty text-slate-600 relative z-20 tracking-[.5rem]">
           <h3 className="uppercase text-xl">nuestros productos</h3>
         </div>
@@ -34,7 +34,7 @@ export default function Main() {
             con medialunas artesanales recién horneadas es más fácil de lo que
             te imaginás!
           </p>
-          <button className="flex h-full items-center text-sm font-normal text-black bg-yellow-600 shadow-sm px-6 py-1 uppercase">
+          <button className="flex h-full items-center text-sm font-semibold text-white bg-yellow-600 shadow-sm px-6 py-1 uppercase">
             hace tu pedido
           </button>
         </div>

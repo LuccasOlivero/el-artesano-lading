@@ -32,7 +32,7 @@ export default function CardGrid() {
 
 const Card = ({ icon, text, title = "panes y facturas" }: any) => {
   return (
-    <div className="flex flex-col items-center py-4 bg-slate-50 rounded-lg hover:shadow-md transition-shadow duration-300">
+    <div className="flex flex-col items-center py-4 bg-slate-100 rounded-lg hover:shadow-md transition-shadow duration-300">
       <div className="text-4xl text-yellow-400 mb-4">{icon}</div>
       <span className="mb-4 text-center text-gray-700 tracking-[.3rem] text-sm uppercase text-pretty">
         {title}
