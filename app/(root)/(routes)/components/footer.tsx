@@ -1,10 +1,17 @@
+import { Phone } from "lucide-react";
+import { Mail } from "lucide-react";
+import { Store } from "lucide-react";
+import { Timer } from "lucide-react";
+
 export default function Footer() {
   return (
     <footer className="bg-slate-50 text-slate-200 pt-8 pb-2">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-black">
           <div className="flex">
-            <span>LOGO</span>
+            <span>
+              <Phone />
+            </span>
             <div>
               <h3 className="font-bold text-lg mb-1 tracking-[.3rem]">
                 Llamanos
@@ -14,7 +21,9 @@ export default function Footer() {
           </div>
 
           <div className="flex">
-            <span>LOGO</span>
+            <span>
+              <Mail />
+            </span>
             <div>
               <h3 className="font-bold text-lg mb-1 tracking-[.3rem]">Email</h3>
               <p className="text-sm font-light">elArtesano@gmail.com</p>
@@ -22,7 +31,9 @@ export default function Footer() {
           </div>
 
           <div className="flex">
-            <span>LOGO</span>
+            <span>
+              <Store />
+            </span>
             <div>
               <h3 className="font-bold text-lg mb-1 tracking-[.3rem]">
                 Visitanos
@@ -34,7 +45,9 @@ export default function Footer() {
           </div>
 
           <div className="flex">
-            <span>LOGO</span>
+            <span>
+              <Timer />
+            </span>
             <div>
               <h3 className="font-bold text-lg mb-1 tracking-[.3rem]">
                 Abrimos

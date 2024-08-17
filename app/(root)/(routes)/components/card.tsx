@@ -1,33 +1,20 @@
-const Card = ({ icon, text, title = "panes y facturas" }: any) => {
-  return (
-    <div className="flex flex-col items-center py-4 bg-slate-50 rounded-lg hover:shadow-md transition-shadow duration-300">
-      <div className="text-4xl text-yellow-400 mb-4">ICON</div>
-      <span className="mb-4 text-center text-gray-700 tracking-[.3rem] text-sm uppercase text-pretty">
-        {title}
-      </span>
-      <p className="text-balance text-center text-gray-500 text-sm">{text}</p>
-      <p className="pt-2 text-yellow-400 text-base relative">
-        ver productos
-        <span className="relative ml-2 text-[.5rem] bottom-[.09rem]">
-          {">"}
-        </span>
-      </p>
-    </div>
-  );
-};
+import { Sandwich } from "lucide-react";
+import { Croissant } from "lucide-react";
+import { Wheat } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export default function CardGrid() {
   const cards = [
     {
-      icon: "faHeart",
+      icon: <Croissant size={40} />,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
-      icon: "faStar",
+      icon: <Wheat size={40} />,
       text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
-      icon: "faThumbsUp",
+      icon: <Sandwich size={40} />,
       text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ];
@@ -42,3 +29,19 @@ export default function CardGrid() {
     </div>
   );
 }
+
+const Card = ({ icon, text, title = "panes y facturas" }: any) => {
+  return (
+    <div className="flex flex-col items-center py-4 bg-slate-50 rounded-lg hover:shadow-md transition-shadow duration-300">
+      <div className="text-4xl text-yellow-400 mb-4">{icon}</div>
+      <span className="mb-4 text-center text-gray-700 tracking-[.3rem] text-sm uppercase text-pretty">
+        {title}
+      </span>
+      <p className="text-balance text-center text-gray-500 text-sm">{text}</p>
+      <p className="pt-2 text-yellow-400 text-base relative flex items-center gap-x-2">
+        ver productos
+        <ArrowRight />
+      </p>
+    </div>
+  );
+};
