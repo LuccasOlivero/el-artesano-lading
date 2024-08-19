@@ -9,7 +9,7 @@ export default function Main() {
 
         <h1 className="mt-28 text-4xl text-pretty text-slate-100 text-center uppercase relative z-20 tracking-[.5rem]">
           Panadería 100% artesanal <br />
-          <span className="absolute bottom-[-1rem] left-0 right-0 text-center text-pretty text-slate-300 text-sm">
+          <span className="absolute bottom-[-1rem] left-0 right-0 text-center text-pretty text-slate-300 text-sm max-sm:bottom-[-2.5rem]">
             con mas de 10 años de trayectoria
           </span>
         </h1>
@@ -27,12 +27,11 @@ export default function Main() {
 
         <div className="container flex flex-col items-start justify-center mx-auto w-3/4 z-10">
           <h4 className="uppercase text-2xl text-pretty font-bold text-slate-100">
-            sandwiches de miga por mayor
+            sandwiches de miga
           </h4>
           <p className="text-pretty text-sm text-slate-200 mt-2 mb-4">
-            ¡Listas para hornear! Completar tu oferta gastronómica <br />
-            con medialunas artesanales recién horneadas es más fácil de lo que
-            te imaginás!
+            Completar tu oferta gastronómica <br />
+            con sandiwches de miga artesanales frescos de la mejor calidad
           </p>
           <button className="flex h-full items-center text-sm font-semibold text-white bg-yellow-600 shadow-sm px-6 py-1 uppercase">
             hace tu pedido

@@ -13,16 +13,16 @@ export default function Navbar() {
         <h3 className="text-2xl text-slate-200 w-full">El Artesano</h3>
       </Link>
 
-      <ul className="flex w-full items-center justify-end">
-        <li>
-          {routes.map((route) => (
-            <Link key={route.label} href={route.href}>
+      <ul className="flex w-full items-center justify-end flex-wrap">
+        {routes.map((route) => (
+          <li key={route.label}>
+            <Link href={route.href}>
               <span className="text-slate-200 hover:text-gray-500 transition-all duration-300 mr-6 text-xs uppercase tracking-[.4rem]">
                 {route.label}
               </span>
             </Link>
-          ))}
-        </li>
+          </li>
+        ))}
       </ul>
     </div>
   );
