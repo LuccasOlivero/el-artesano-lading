@@ -33,7 +33,7 @@ export default function Main() {
             Completar tu oferta gastronómica <br />
             con sandiwches de miga artesanales frescos de la mejor calidad
           </p>
-          <button className="flex h-full items-center text-sm font-semibold text-white bg-yellow-600 shadow-sm px-6 py-1 uppercase">
+          <button className="flex h-full items-center text-sm font-normal text-white bg-yellow-600 shadow-sm px-6 py-1 uppercase">
             hace tu pedido
           </button>
         </div>

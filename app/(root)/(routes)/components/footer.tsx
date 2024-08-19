@@ -8,7 +8,7 @@ export default function Footer() {
   const titleStyle = "font-bold text-lg mb-1 tracking-[.3rem]";
 
   return (
-    <footer className="bg-slate-200 text-slate-200 pt-8 pb-2">
+    <footer className="bg-slate-100 text-slate-200 pt-8 pb-2">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-black">
           <div className="flex">
@@ -17,8 +17,8 @@ export default function Footer() {
             </span>
             <div>
               <h3 className={titleStyle}>Llamanos</h3>
-              <p className="text-sm font-light">388-352342</p>
-              <p className="text-sm font-light">2901-521454</p>
+              <p className="text-sm font-light">388-4372352</p>
+              <p className="text-sm font-light">388-4197996</p>
             </div>
           </div>
 
