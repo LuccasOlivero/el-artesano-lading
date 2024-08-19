@@ -9,8 +9,8 @@ export default function GoogleMap() {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        apiKey: process.env.NEXT_API_GOOGLE_MAPS!,
-        version: process.env.VERSION!,
+        apiKey: process.env.NEXT_PUBLIC_API_GOOGLE_MAPS as string,
+        version: process.env.NEXT_PUBLIC_VERSION as string,
       });
 
       const { Map } = await loader.importLibrary("maps");
@@ -31,7 +31,7 @@ export default function GoogleMap() {
 
       const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
 
-      new Marker({ map: map, position: position });
+      new Marker({ map, position: position });
     };
 
     initMap();
