@@ -4,7 +4,7 @@ import GoogleMap from "./map";
 export default function Main() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen relative bg-factura bg-fixed bg-cover bg-no-repeat">
+      <div className="flex flex-col items-center justify-center h-screen relative bg-factura bg-cover bg-no-repeat bg-scroll md:bg-fixed">
         <span className="absolute inset-0 w-full h-full bg-[rgba(34,34,34,0.3)] content-none"></span>
 
         <h1 className="mt-28 text-4xl text-pretty text-slate-100 text-center uppercase relative z-20 tracking-[.5rem]">
@@ -22,7 +22,7 @@ export default function Main() {
         <CardGrid />
       </div>
 
-      <div className="relative w-full bg-fixed py-40 bg-miga bg-no-repeat bg-center bg-cover flex justify-center">
+      <div className="relative w-full bg-scroll md:bg-fixed py-40 bg-miga bg-no-repeat bg-center bg-cover flex justify-center">
         <span className="absolute inset-0 w-full h-full bg-[rgba(34,34,34,0.3)] content-none"></span>
 
         <div className="container flex flex-col items-start justify-center mx-auto w-3/4 z-10">
